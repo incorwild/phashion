@@ -1,0 +1,10 @@
+prefix=/Users/igor/.rbenv/versions/2.3.7/gemsets/andrew-phashion/gems/phashion-1.2.0/ext/phashion_ext
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: pHash
+Description: Perceptual hashing library
+Version: 0.9.6
+Libs: -L${libdir} -lpHash -lm
+Cflags: -I${includedir}
